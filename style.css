@@ -4,16 +4,21 @@
   box-sizing: border-box;
 }
 
-div:first-of-type {
-  background-color: yellow;
+div img {
   height: 5rem;
   width: 5rem;
 }
 
+div:first-of-type {
+  background-color: yellow;
+  height: 8rem;
+  width: 8rem;
+}
+
 div:nth-of-type(2) {
   background-color: orange;
-  height: 5rem;
-  width: 5rem;
+  height: 8rem;
+  width: 8rem;
 }
 
 div:nth-of-type(3) {
