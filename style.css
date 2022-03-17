@@ -30,7 +30,7 @@ header img {
 main {
   display: flex;
   justify-content: center;
-  margin: 13.8rem;
+  margin: 13.6rem;
 }
 
 div img {
@@ -51,6 +51,7 @@ div:first-of-type {
   text-align: center;
   margin-top: 3rem;
   padding-top: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 /*HITHAT-CLOSE*/
@@ -66,6 +67,7 @@ div:nth-of-type(2) {
   text-align: center;
   margin-top: 3rem;
   padding-top: 1rem;
+  margin-right: 1.5rem;
 }
 
 /*HITHAT-OPEN*/
@@ -81,6 +83,7 @@ div:nth-of-type(3) {
   text-align: center;
   margin-top: 3rem;
   padding-top: 1rem;
+  margin-right: 1.5rem;
 }
 
 /*KICK*/
@@ -96,6 +99,7 @@ div:nth-of-type(4) {
   text-align: center;
   margin-top: 3rem;
   padding-top: 1rem;
+  margin-right: 1.5rem;
 }
 
 /*RIDE*/
@@ -111,6 +115,7 @@ div:nth-of-type(5) {
   text-align: center;
   margin-top: 3rem;
   padding-top: 1rem;
+  margin-right: 1.5rem;
 }
 
 /*SNARE*/
@@ -126,6 +131,7 @@ div:nth-of-type(6) {
   text-align: center;
   margin-top: 3rem;
   padding-top: 1.2rem;
+  margin-right: 1.5rem;
 }
 
 /*TOM_HIGH*/
@@ -141,6 +147,7 @@ div:nth-of-type(7) {
   text-align: center;
   margin-top: 3rem;
   padding-top: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 /*TOM-MIDE*/
@@ -156,6 +163,7 @@ div:nth-of-type(8) {
   text-align: center;
   margin-top: 3rem;
   padding-top: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 /*TOM-LOW*/
@@ -171,6 +179,7 @@ div:last-of-type {
   text-align: center;
   margin-top: 3rem;
   padding-top: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 /*FOOTER*/
