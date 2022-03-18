@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+/*BODY*/
+body {
+  background-color: rgb(182, 216, 233);
+}
+
 /*HEADER*/
 header {
   background-color: rgb(40, 84, 104);
@@ -19,18 +24,34 @@ header h1 {
   font-size: 3rem;
   color: white;
   display: flex;
+  font-family: "Bungee", cursive;
+}
+
+header p {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  background-color: white;
 }
 
 header img {
   width: 7rem;
   height: 7rem;
+  justify-content: center;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 /*MAIN*/
 main {
   display: flex;
   justify-content: center;
-  margin: 13.6rem;
+  margin-left: 2rem;
+  margin-top: 15rem;
+  margin-bottom: 15rem;
 }
 
 div img {
@@ -40,7 +61,7 @@ div img {
 
 /*CRASH*/
 div:first-of-type {
-  background-color: yellow;
+  background-color: rgb(40, 84, 104);
   height: 10rem;
   width: 10rem;
 }
@@ -52,11 +73,16 @@ div:first-of-type {
   margin-top: 3rem;
   padding-top: 1.5rem;
   margin-right: 1.5rem;
+  color: white;
+}
+
+.crahs img {
+  background-color: cornflowerblue;
 }
 
 /*HITHAT-CLOSE*/
 div:nth-of-type(2) {
-  background-color: orange;
+  background-color: rgb(40, 84, 104);
   height: 10rem;
   width: 10rem;
 }
@@ -68,11 +94,12 @@ div:nth-of-type(2) {
   margin-top: 3rem;
   padding-top: 1rem;
   margin-right: 1.5rem;
+  color: white;
 }
 
 /*HITHAT-OPEN*/
 div:nth-of-type(3) {
-  background-color: orangered;
+  background-color: rgb(40, 84, 104);
   height: 10rem;
   width: 10rem;
 }
@@ -84,11 +111,12 @@ div:nth-of-type(3) {
   margin-top: 3rem;
   padding-top: 1rem;
   margin-right: 1.5rem;
+  color: white;
 }
 
 /*KICK*/
 div:nth-of-type(4) {
-  background-color: darkgreen;
+  background-color: rgb(40, 84, 104);
   height: 10rem;
   width: 10rem;
 }
@@ -100,11 +128,12 @@ div:nth-of-type(4) {
   margin-top: 3rem;
   padding-top: 1rem;
   margin-right: 1.5rem;
+  color: white;
 }
 
 /*RIDE*/
 div:nth-of-type(5) {
-  background-color: chartreuse;
+  background-color: rgb(40, 84, 104);
   height: 10rem;
   width: 10rem;
 }
@@ -116,11 +145,12 @@ div:nth-of-type(5) {
   margin-top: 3rem;
   padding-top: 1rem;
   margin-right: 1.5rem;
+  color: white;
 }
 
 /*SNARE*/
 div:nth-of-type(6) {
-  background-color: beige;
+  background-color: rgb(40, 84, 104);
   height: 10rem;
   width: 10rem;
 }
@@ -132,11 +162,12 @@ div:nth-of-type(6) {
   margin-top: 3rem;
   padding-top: 1.2rem;
   margin-right: 1.5rem;
+  color: white;
 }
 
 /*TOM_HIGH*/
 div:nth-of-type(7) {
-  background-color: brown;
+  background-color: rgb(40, 84, 104);
   height: 10rem;
   width: 10rem;
 }
@@ -148,11 +179,12 @@ div:nth-of-type(7) {
   margin-top: 3rem;
   padding-top: 1.5rem;
   margin-right: 1.5rem;
+  color: white;
 }
 
 /*TOM-MIDE*/
 div:nth-of-type(8) {
-  background-color: burlywood;
+  background-color: rgb(40, 84, 104);
   height: 10rem;
   width: 10rem;
 }
@@ -164,11 +196,12 @@ div:nth-of-type(8) {
   margin-top: 3rem;
   padding-top: 1.5rem;
   margin-right: 1.5rem;
+  color: white;
 }
 
 /*TOM-LOW*/
 div:last-of-type {
-  background-color: chocolate;
+  background-color: rgb(40, 84, 104);
   height: 10rem;
   width: 10rem;
 }
@@ -180,6 +213,7 @@ div:last-of-type {
   margin-top: 3rem;
   padding-top: 1.5rem;
   margin-right: 1.5rem;
+  color: white;
 }
 
 /*FOOTER*/
@@ -188,5 +222,5 @@ footer {
   padding: 1rem;
   text-align: center;
   color: white;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
 }
