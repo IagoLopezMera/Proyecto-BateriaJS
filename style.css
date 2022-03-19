@@ -2,58 +2,151 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+  </style>
 }
 
-div:first-of-type {
-  background-color: yellow;
-  height: 5rem;
-  width: 5rem;
+/* VERSIÓN MÓVIL */
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: #dce6eb;
 }
 
-div:nth-of-type(2) {
-  background-color: orange;
+
+header {
   height: 5rem;
-  width: 5rem;
+  background-color: #285468;
+  color: white;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  
 }
 
-div:nth-of-type(3) {
-  background-color: orangered;
-  height: 5rem;
-  width: 5rem;
+
+h1 {
+font-family: Play, sans-serif;
 }
 
-div:nth-of-type(4) {
-  background-color: darkgreen;
-  height: 5rem;
-  width: 5rem;
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
 }
 
-div:nth-of-type(5) {
-  background-color: chartreuse;
-  height: 5rem;
-  width: 5rem;
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
-div:nth-of-type(6) {
-  background-color: beige;
-  height: 5rem;
-  width: 5rem;
+div p {
+  text-align: center;
+  color: #285468;
+  font-family: Play, sans-serif;
+  font-size: 0.85rem;
 }
 
-div:nth-of-type(7) {
-  background-color: brown;
-  height: 5rem;
-  width: 5rem;
+footer {
+  height: 2rem;
+  background-color: #285468;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.65rem;
+  font-family: Play, sans-serif;
 }
 
-div:nth-of-type(8) {
-  background-color: burlywood;
-  height: 5rem;
-  width: 5rem;
-}
+/* VERSIÓN ESCRITORIO */
 
-div:last-of-type {
-  background-color: chocolate;
-  height: 5rem;
-  width: 5rem;
+@media (min-width: 600px) {
+
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    min-width: 200px;
+    background-color: #dce6eb;
+  }
+  
+  
+  header {
+    height: 6rem;
+    background-color: #285468;
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 3rem;
+    
+  }
+  
+  
+  h1 {
+  font-family: Play, sans-serif;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  
+  div p {
+    text-align: center;
+    color: #285468;
+    font-family: Play, sans-serif;
+    font-size: 0.85rem;
+  }
+  
+  footer {
+    height: 2rem;
+    background-color: #285468;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.65rem;
+    font-family: Play, sans-serif;
+  }
+
+  .sound {
+    animation: dissapear 1 linear forwads;
+
+  }
+
+  @keyframes dissapear {
+    25% {
+      transform: scale(0);
+    }
+    50% {
+      transform: scale(1);
+    }
+    75% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(0);
+    }
+  }
+
 }

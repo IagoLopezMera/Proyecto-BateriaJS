@@ -30,7 +30,7 @@ hhOpen.addEventListener("click", (event) => {
 
 // Kick
 var audioKick = new Audio("./sounds/kick.wav");
-const kick = document.querySelector("div:nth-of-type(4)");
+const kick = document.querySelector("div:nth-of-type(7)");
 
 kick.addEventListener("click", (event) => {
   play(audioKick);
@@ -38,7 +38,7 @@ kick.addEventListener("click", (event) => {
 
 // Ride
 var audioRide = new Audio("./sounds/ride.wav");
-const ride = document.querySelector("div:nth-of-type(5)");
+const ride = document.querySelector("div:nth-of-type(8)");
 
 ride.addEventListener("click", (event) => {
   play(audioRide);
@@ -54,7 +54,7 @@ snare.addEventListener("click", (event) => {
 
 // Tom High
 var audioTomHigh = new Audio("./sounds/tom-high.wav");
-const tomHigh = document.querySelector("div:nth-of-type(7)");
+const tomHigh = document.querySelector("div:nth-of-type(4)");
 
 tomHigh.addEventListener("click", (event) => {
   play(audioTomHigh);
@@ -62,7 +62,7 @@ tomHigh.addEventListener("click", (event) => {
 
 // Tom Mid
 var audioTomMid = new Audio("./sounds/tom-mid.wav");
-const tomMid = document.querySelector("div:nth-of-type(8)");
+const tomMid = document.querySelector("div:nth-of-type(5)");
 
 tomMid.addEventListener("click", (event) => {
   play(audioTomMid);
