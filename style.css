@@ -129,23 +129,24 @@ footer {
     font-family: Play, sans-serif;
   }
 
-  .sound {
-    animation: dissapear 1 linear forwads;
+  .move {
+    animation: dissapear 1;
+    animation-fill-mode: forwards;
 
   }
 
   @keyframes dissapear {
     25% {
-      transform: scale(0);
+      transform: scale(2);
     }
     50% {
       transform: scale(1);
     }
     75% {
-      transform: scale(0);
+      transform: scale(2);
     }
     100% {
-      transform: scale(0);
+      transform: scale(1);
     }
   }
 
